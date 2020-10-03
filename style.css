@@ -1,10 +1,23 @@
+#header{
+    height: 30%;
+    margin-top: 0px;
+}
+#blank_1{
+    width: 30%;
+    float: left
+}
+#content{
+    width: 40%;
+    float: left;
+    
+}
 .logo {
-    height: auto;
-    max-width:  12%;
+    height: inherit;
+    max-width:  10vw;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: auto;
-    margin-top: 15%;
+    margin-top: auto;
     align-content: center;
     border-bottom-color: transparent;
 }
@@ -12,7 +25,16 @@ img{
     max-width: 100%;
     height: auto;
 }
-.font_style_1{
-    font-size: 100pt;
+#font_style_1{
+    font-size: 60% ;
+    max-width: auto;
+    font-family: Montserrat , sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #09092B;
     
+}
+#blank_2{
+    width: 30%;
+    float: right;
 }
