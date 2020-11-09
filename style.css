@@ -13,7 +13,7 @@
 }
 .logo {
     height: inherit;
-    max-width:  10vw;
+    max-width:  18vw;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: auto;
@@ -26,7 +26,7 @@ img{
     height: auto;
 }
 #font_style_1{
-    font-size: 55% ;
+    font-size: 50% ;
     max-width: auto;
     font-family: Montserrat , sans-serif;
     font-weight: bold;
