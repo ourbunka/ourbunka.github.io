@@ -28,6 +28,7 @@ img{
 #font_style_1{
     font-size: 60% ;
     max-width: auto;
+    height: 1vh ;
     font-family: Montserrat , sans-serif;
     font-weight: bold;
     text-align: center;
