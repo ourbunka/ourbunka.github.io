@@ -5,13 +5,18 @@
             background-color: rgb(18, 18, 18);
         }
         div{
-            margin: 5%;
+            margin: 2.5%;
             top: 5%;
             background-color: rgb(18, 18, 18);
         }
         p, h2, h4{
             font-family: sans-serif;
             color: azure;
+        }
+        .description {
+            font-size: 75%;
+            font-weight: lighter;
+            margin-left: 1.25%;
         }
     </style>
 </head>
@@ -25,21 +30,12 @@
         The Application allow user to 
     </p>
     <p>
-        (1) to stay up to date with latest product and services offered by OURBUNKA MOTION.
+        ⚪ to stay up to date with latest product and services offered by OURBUNKA MOTION.
     </p>
     <p>
-        (2) manage key for OURBUNKA MOTION digital products via in app Chimera Auth features.
+        ⚪ manage key and key signing with In App Chimera Auth Key Manager.
     </p>
-    <p>
-        (3) scan QR and sign message from all OURBUNKA MOTION digital products via in app Chimera Auth feature, for account authentication purposes.
-    </p>
-    <p>
-        (4) generate and store public/private key on device locally via in app Chimera Auth features.
-    </p>
-    <p>
-        (5) add OURBUNKA MOTION digital products and services to Fav/bookmark, get notified and stay up to date with the product.
-    </p>
-
+    <br>
 
     <h4>
         What information does the Application collect/obtain and how is it used?
@@ -54,17 +50,18 @@
         For User with an ourbunka account, this Application does collect  
     </p>
     <p>
-        (1) pseudonymous public key that generated on device via in app Chimera Auth Key Manager for account creation, authentication and verification purposes.
+        ⚪ pseudonymous In App Chimera Auth public key for account creation, authentication and verification purposes.
     </p>
     <p>
-        (2) signatures generated when signing messages from OURBUNKA MOTION digital products via in app Chimera Auth Signing/Scan QR features, for account authentication purposes.
+        ⚪ signatures of signed messages from OURBUNKA MOTION digital products via in app Chimera Auth Signing/Scan QR features, for account authentication purposes.
     </p>
-    <p>
-        ourbunka server automatically create a new ourbunka account for user when user "CONNECT", i.e login for the first time.
+    <p class="description">
+        ourbunka server automatically create a new ourbunka account for user and collect data as listed above when user "CONNECT", i.e login, for the first time.
     </p>
-    <p>
+    <p class="description">
         Collected Data are securely transfer and store in ourbunka server for account creation and verification purposes and can be deleted when user Request to "Delete Account"(coming soon) in app. 
     </p>
+    <br>
     <h4>
         User Provided information
     </h4>
@@ -77,60 +74,71 @@
     <p>
 
     </p>
-
+    <br>
     <h4>
         In App Chimera Auth
     </h4>
     <p>
-        In App Chimera Auth is a features for  
+        In App Chimera Auth Key Manager allow user to
     </p>
     <p>
-        (1) managing chimera auth private key,
+        ⚪ managing chimera auth private key,
     </p>
     <p>
-        (2) generate chimera auth private key on device LOCALLY and ONLY store on user device locally,
+        ⚪ generate chimera auth private key on device LOCALLY and ONLY store on user device locally,
         
     </p>
-    <p>
-        generated private key are not and should not shared with anyone, 
-        so you are required to keep your generated chimera auth private key safe and secured, 
+    <p class="description">
+        Generated private key are not and should not shared with anyone. 
+        You are required to keep your generated chimera auth private key safe and secured, 
         or you will lose access to all your OURBUNKA MOTION digital product accounts once you lost your chimera auth private key.
         OURBUNKA MOTION digital products account are designed to be secured by public key cryptography, each account is only be accessible by one unique private key, and can not be changed.
         OURBUNKA MOTION do not have abilities to help you recover your private key or accounts.
     </p>
     <p>
-        (3) scan QR via android google play services barcode api 
+        ⚪ "Scan QR" via android google play services barcode api 
     </p>
     <p>
-        (4) signing message from OURBUNKA MOTION digital products using public key cryptography for authentication purposes.
+        ⚪ signing message from OURBUNKA MOTION digital products using public key cryptography for authentication purposes.
+    </p>
+    <p class="description">
+        Only signing signature are collected by OURBUNKA when using this features, for authentication purposes. 
+    </p>
+    <p class="description">
+        Signature are generated using your chimera auth private key locally on devices.
     </p>
     <p>
-        (5) recover key with existing chimera auth private key.
+        ⚪ recover key with existing chimera auth private key.
+    </p>
+    <p class="description">
+        Chimera Auth private key provided by user/you during recovering key are not shared with anyone, including OURBUNKA MOTION. Provided Key are processed locally and stored locally on your devices. 
     </p>
     
-    <p>
+    <p class="description">
         NOTE: YOU SHOULD ONLY USE PRIVATE KEY GENERATED FROM OURBUNKA IN APP CHIMERA AUTH FEATURE WHEN RECOVERING PRIVATE KEY IN CHIMERA AUTH "RECOVERING KEY". DO NOT USE PRIVATE KEY GENERATED FROM OTHER APPS/WEBSITES.
     </p>
-    <p>
+    <p class="description">
         Chimera Auth are designed only to be used with ourbunka motion digital products, do not use it with other websites or apps.
     </p>
-    <p>
+    <p class="description">
         Do Not use private key generated from ourbunka Chimera Auth in other apps/websites, your chimera auth private key could be stolen by other malicious app/websites.
     </p>
-    <p>
+    <p class="description">
         Any Loses occured when using ourbunka Chimera Auth outside of designed/intended purposes are on you.
     </p>
-
+    <br>
     <h4>Does the Application collect precise real time location information of the device?</h4>
     <p>
         This Application does not collect precise information about the location of your mobile device.
     </p>
+    <br>
     <h4>Changes</h4>
     <p>
         This Privacy Policy may be updated from time to time for any reason. 
         We will notify you of any changes to our Privacy Policy by posting the new Privacy Policy on ourbunka.github.io/ .
         You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.
     </p>
+    <br>
     <h4>
         Your Consent
     </h4>
